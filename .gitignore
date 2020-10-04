@@ -1,2 +1,7 @@
 .DS_Store
 .idea
+*.xml
+/target
+/target/*
+*.iml
+/target/**
