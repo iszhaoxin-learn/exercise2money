@@ -1,7 +1,13 @@
-#### 如何提交
+# ゴチ君 ![icon](https://i.loli.net/2020/10/05/APvmanVlE8iUQ1p.jpg) のLeetcode部屋
 
-大家建一个自己的branch就好，每次提交的名字随便写，一个题提交一次，但是最好还是加上日期，这样才能便于结算。
-
-#### 金额
-
-一周不足七道就罚3000日元，可以攒着用来聚餐
+### Easy (3/523): 
+  - [x] [1. 两数之和](https://leetcode-cn.com/problems/two-sum/) 
+  - [x] [7. 整数反转](https://leetcode-cn.com/problems/reverse-integer/)
+  - [x] [496. 下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i/)
+### Medium (3/930):
+  - [x] [503. 下一个更大元素 II](https://leetcode-cn.com/problems/next-greater-element-ii/)
+  - [x] [654. 最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree/)
+  - [x] [739.每日温度](https://leetcode-cn.com/problems/daily-temperatures/)
+### Hard (2/396):
+  - [x] [42. 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/)
+  - [x] [239. 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
