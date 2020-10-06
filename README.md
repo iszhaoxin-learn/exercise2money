@@ -10,4 +10,5 @@
   - [x] [739.每日温度](https://leetcode-cn.com/problems/daily-temperatures/)
 ### Hard (2/396):
   - [x] [42. 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/)
+  - [x] [84. 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
   - [x] [239. 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
