@@ -3,23 +3,16 @@ import java.util.Set;
 
 class Solution {
     public int mincostTickets(int[] days, int[] costs) {
+        int cost = 0;
         boolean[] dayIncluded = new boolean[366];
-        for (int day : days) {
-            dayIncluded[day] = true;
-        }
-        int[] minCost = new int[366];
-        minCost[0] = 0;
-        for (int day = 1; day <= 365; ++day) {
-            if (!dayIncluded[day]) {
-                minCost[day] = minCost[day-1];
-                continue;
+
+        for (int i = days.length - 1; i >= 0; i++) {
+            if(days[days.length - 1]-days[i]>=1) {
+                cost = Math.min(cost+costs[0], costs[0]);
             }
-            int min;
-            min = minCost[day-1] + costs[0];
-            min = Math.min(min, minCost[Math.max(0, day-7)] + costs[1]);
-            min = Math.min(min, minCost[Math.max(0, day-30)] + costs[2]);
-            minCost[day] = min;
+            else if(days[i+1]-days[i]>=7){
+
+            }
         }
-        return minCost[365];
     }
 }
